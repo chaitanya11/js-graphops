@@ -1,0 +1,36 @@
+{
+  "name": "js-graphops",
+  "version": "0.0.1-rc",
+  "description": "A javascript library to implement graph operations for observables and promises.",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaitanya11/js-graphops.git"
+  },
+  "keywords": [
+    "javascript",
+    "graph",
+    "observable",
+    "datastructure"
+  ],
+  "author": "Chaitanya Garikipati",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chaitanya11/js-graphops/issues"
+  },
+  "homepage": "https://github.com/chaitanya11/js-graphops#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "nyc": "^14.1.1",
+    "ts-loader": "^6.0.4",
+    "tslint": "^5.18.0",
+    "typescript": "^3.5.2",
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5"
+  }
+}
